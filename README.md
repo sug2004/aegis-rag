@@ -1,6 +1,6 @@
-# Enterprise RAG Pipeline
+# AegisRAG
 
-Production-ready document ingestion and retrieval system for Retrieval-Augmented Generation (RAG) applications. Built with Python, Qdrant Cloud, and structured observability.
+**Enterprise Agentic RAG** — Production-ready document ingestion, retrieval, and generation system with LangGraph agentic core, NeMo Guardrails safety, Portkey LLM gateway, and RAGAS evaluation suite. Built with Python, Qdrant Cloud, Jina AI embeddings/reranking, and structured observability (Logfire + LangSmith).
 
 ## Architecture
 
