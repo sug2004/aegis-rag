@@ -23,7 +23,7 @@ def generate_node(state: AgentState):
     if query == "CONVERSATIONAL":
         logfire.info("Generating conversational response using memory.")
         prompt = f"""
-        You are a friendly and helpful Enterprise AI Assistant.
+        You are a friendly and helpful AegisRAG Enterprise AI Assistant.
         Answer the user's latest message using the CONVERSATION HISTORY below.
 
         CONVERSATION HISTORY:

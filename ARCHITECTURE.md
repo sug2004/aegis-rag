@@ -1,4 +1,4 @@
-# Enterprise Agentic RAG: LangGraph · Guardrails · LLM Gateway · RAGAS Evals
+# AegisRAG : LangGraph · Guardrails · LLM Gateway · RAGAS Evals
 
 ```mermaid
 graph LR
@@ -11,7 +11,7 @@ graph LR
     end
 
     %% ── API + Safety ─────────────────────────────────────────────────────────
-    subgraph SAFETY ["🛡️  API + Safety"]
+    subgraph SAFETY ["  API + Safety"]
         direction TB
         API["⚡ FastAPI\n/query"]
         GR{"NeMo\nGuardrails"}
